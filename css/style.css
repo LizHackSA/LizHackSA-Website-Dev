@@ -25,7 +25,7 @@ html, body {
 }
 
 .carousel-caption{
-  bottom: 15%;
+  bottom: 2rem;
   padding: 5%;
   background-color: rgba(0,0,0, 0.5);
 }
@@ -168,13 +168,18 @@ hr.light-100{
   }
   
   .carousel-caption h1{
-    font-size: 200%;
+    font-size: 150%;
   }
   
   .carousel-caption h3{
-    font-size: 120%;
+    font-size: 80%;
     font-weight: 400;
     padding-bottom: .2rem;
+  }
+
+  .carousel-caption .btn{
+    font-size: 60%;
+    padding: 4px 8px;
   }
 
   .display-4{
@@ -190,19 +195,21 @@ hr.light-100{
 @media (max-width: 576px) {
   .carousel-caption{
     top:20%;
+    padding: 1.5rem;
   }
   
   .carousel-caption h1{
-    font-size: 100%;
+    font-size: 120%;
+    padding-top: 4%;
   }
   
   .carousel-caption h3{
-    font-size: 80%;
+    font-size: 90%;
   }
 
   .carousel-caption .btn{
-    font-size: 90%;
-    padding: 4px 8px;
+    font-size: 70%;
+    padding: 1px 4px;
   }
 
   .carousel-indicators{
@@ -210,7 +217,40 @@ hr.light-100{
   }
 
   .display-4{
-    font-size: 160%;
+    font-size: 150%;
+  }
+
+  .social a {
+    font-size: 2em;
+    padding: .7rem; 
+  }
+}
+
+@media (max-width: 376px) {
+  .carousel-caption{
+    top:15%;
+    padding: 1.2rem;
+  }
+  
+  .carousel-caption h1{
+    font-size: 65%;
+  }
+  
+  .carousel-caption h3{
+    font-size: 40%;
+  }
+
+  .carousel-caption .btn{
+    font-size: 40%;
+    padding: 1px 4px;
+  }
+
+  .carousel-indicators{
+    display: none;
+  }
+
+  .display-4{
+    font-size: 150%;
   }
 
   .social a {
