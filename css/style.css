@@ -27,7 +27,7 @@ html, body {
 .carousel-caption{
   bottom: 2rem;
   padding: 5%;
-  background-color: rgba(0,0,0, 0.5);
+  background-color: rgba(0,0,0, 0.7);
 }
 
 .carousel-caption h1{
