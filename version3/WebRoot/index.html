@@ -11,6 +11,9 @@
     <meta name="copyright" content="(c) 2019" />
     <link rel="stylesheet" type="text/css" href="Assets/Css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="Assets/Css/style.css">
+    <link rel="shortcut icon" href="Assets/img/favicon.png" type="image/x-icon">
+    <meta name="theme-color" content="#ffffff">
+
     <title> LizHack SA </title>
 </head>
 
@@ -26,9 +29,9 @@
                     <img src="Assets/img/logo2.png" alt="LizHack SA" class="navbar-brand__icon">
                 </a>
 
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+                <a class="menu-btn" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="menu-btn__burger"></span>
+                </a>
 
                 <div class="collapse navbar-collapse text-center" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
@@ -51,114 +54,141 @@
 
     </header>
 
-<main class="home">
-    <!-- Image Slider  -->
-    <section class="home_welcome">
-        <div id="Slides" class="carousel slide" data-ride="carousel">
-
-            <div class="carousel-inner">
-
-                <div class="carousel-item active">
-                    <div class="slide1">
-                        <div class="slide__content">
-                            <h1 class="display-2"> Fast Development </h1>
-                            <h3> Complete efficiency and the best team </h3>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="carousel-item">
-                    <div class="slide2">
-                        <div class="slide__content">
-                            <h1 class="display-2"> Responsive Web Development </h1>
-                            <h3> We develop websites that are responsive, every device has chance to view. </h3>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="carousel-item">
-                    <div class="slide3">
-                        <div class="slide__content">
-                            <h1 class="display-2"> Efficient Web design </h1>
-                            <h3> Complete efficiency and the best team </h3>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-    </section>
+<main>
+    <!-- Welcome Note  -->
+    <section class="welcome">
+    <h1 class="welcome-note">
+        LizHack SA
+    </h1>
+    <p class="welcome-subtext">
+        Life hacks are there to make life easy, LizHack SA is here to make web design & development easy for you.
+    </p>
+</section>
 
     <!-- Our Philosophy -->
-    <section class="home_philosophy">
-        <div>
-            <h2> Our Philosophy </h2>
-            <p>
-                Work smart with the best team!
-            </p>
-            <p>
-                Provide the best customer service.
-            </p>
-        </div>
-
-    </section>
-
-    <hr class="my-4">
+    <!-- include this later ourPhilosophy -->
 
     <!-- Services -->
-    <section id="services" class="home-services">
+    <section id="services" class="services">
 
-        <div class="home-services__collection">
+    <div class="services__collection">
 
-            <div class="home-services__service">
+        <div class="services__service">
+            <img src="Assets/img/services/webdesign.jpeg" alt="Web design service">
+            <div class="content-txt">
                 <h3> Website Design </h3>
                 <p> We design mocks ups that represent the idea </p>
+                <a href="services/webdesign.html" class="btn btn-primary"> See more </a>
             </div>
+        </div>
 
-            <div class="home-services__service">
+        <div class="services__service">
+            <img src="Assets/img/services/webdev.jpeg" alt="Web development service">
+            <div class="content-txt">
                 <h3> Website Development </h3>
                 <p> We convert design idea into existing website </p>
+                <a href="services/webdev.html" class="btn btn-primary"> See more </a>
             </div>
 
-            <div class="home-services__service">
+
+        </div>
+
+        <div class="services__service">
+            <img src="Assets/img/services/tshirtdesign.jpeg" alt="logo design service">
+            <div class="content-txt">
                 <h3> T-shirt Design </h3>
                 <p> All sites built use HTML 5 </p>
+                <a href="services/tshirtdesign.html" class="btn btn-primary"> See more </a>
             </div>
+        </div>
 
-            <div class="home-services__service">
+        <div class="services__service">
+            <img src="Assets/img/services/logodesign.jpeg" alt="logo design service">
+            <div class="content-txt">
                 <h3> Logo Design </h3>
                 <p> All sites built use HTML 5 </p>
+                <a href="services/logodesign.html" class="btn btn-primary"> See more </a>
             </div>
-
         </div>
-    </section>
 
-    <!-- Testimonials
-    <section class="home-testimonials__and__heading">
+    </div>
+</section>
 
-        <h2 class="display-4"> Testimonials </h2>
+    <!-- Testimonials-->
+    <section class="testimonials__and__heading">
 
-        <div class="home-testimonials__collection">
+    <h2 class="display-4"> Testimonials </h2>
 
-            <div class="home-testimonials__testimonial">
-                <h3> Little Ark Ministries </h3>
+    <div class="testimonials__collection">
+
+        <div class="testimonials__testimonial">
+            <div class="logo__name">
+                <img src="Assets/img/testimonials/littleArkMinistriesLogo.PNG" alt="little Ark Ministries Logo">
+                <div class="social__name">
+                    <a href="http://" target="_blank" rel="noopener noreferrer">
+                        <h3> Little Ark Ministries </h3>
+                    </a>
+                    <div class="social">
+                        <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/Little-Ark-Ministries-103844167762633/">
+                            <i class="fab fa-facebook fa-2x"></i>
+                        </a>
+                        <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/littlearkministries/">
+                            <i class="fab fa-instagram fa-2x"></i>
+                        </a>
+                        <a target="_blank" rel="noopener noreferrer" href="https://www.littlearkministries.co.za">
+                            www.littlearkministries.co.za
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque saepe qui tenetur minima alias earum, rem officiis odit ex? Deserunt molestias ullam molestiae nesciunt quos vel, asperiores optio velit illo!
+            </p>
+        </div>
+
+        <div class="testimonials__testimonial">
+            <div>
+                <div class="logo__name">
+                    <img src="Assets/img/testimonials/defaultLogo.jpg" alt="Kitchen Solutions Logo">
+                    <div class="social__name">
+                        <a href="http://" target="_blank" rel="noopener noreferrer">
+                            <h3> Kitchen Solutions </h3>
+                        </a>
+                        <div class="social">
+                            <a target="_blank" rel="noopener noreferrer" href="https://">
+                                <i class="fab fa-facebook fa-2x"></i>
+                            </a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://">
+                                <i class="fab fa-instagram fa-2x"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
                 <p>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque saepe qui tenetur minima alias earum, rem officiis odit ex? Deserunt molestias ullam molestiae nesciunt quos vel, asperiores optio velit illo!
                 </p>
             </div>
 
-            <div class="home-testimonials__testimonial">
-                <h3> Kitchen Solutions </h3>
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque saepe qui tenetur minima alias earum, rem officiis odit ex? Deserunt molestias ullam molestiae nesciunt quos vel, asperiores optio velit illo!
-                </p>
-            </div>
-
         </div>
 
-    </section>
-    -->
+</section>
+
+    <!-- meet the director-->
+    <section class="director">
+    <img src="Assets/img/Developer/sbuda.jpg" alt="Director">
+    <div class="director-bio">
+        <h4> Sibusiso "Lizalise" Ncanywa </h4>
+        <h5>Director</h5>
+        <p class="director-bio__txt">
+            Sibusiso Ncanywa completed his degree at Rhodes University in the year 2019. His majors were computer science and music theory and analysis, with a minor of sound technology. In his spare time he enjoys singing with Tshegofatso and Lukhanyiso, they sometimes
+            record their music.
+        </p>
+        <a class="btn btn-lg btn-secondary" href="http://" target="_blank" rel="noopener noreferrer"> Profile </a>
+    </div>
+
+    <img class="second-director-img" src="Assets/img/Developer/LizHack_smile.png" alt="Director">
+
+</section>
 
 </main>
 
@@ -170,12 +200,12 @@
             <div class="details__info__contact">
                 <img src="Assets/img/logo2.png">
 
-                <p>
-                    <a href="tel:+27623654091"> +27(0) 62 3654 091</a>
-                </p>
-                <p>
-                    <a href="mailto:lizhacksa@gmail.com">lizhacksa@gmail.com</a>
-                </p>
+                <a class="whatsAppAdd" href="http://" target="_blank" rel="noopener noreferrer"> LizHack SA WhatsApp Link </a>
+
+                <a class="tel" href="tel:+27623654091"> +27(0) 62 3654 091 </a>
+
+                <a class="emailAdd" href="mailto:lizhacksa@gmail.com"> lizhacksa@gmail.com </a>
+
             </div>
 
             <div class="details__info__address">
@@ -185,8 +215,8 @@
 
         </div>
 
-        <div>
-            <h4>&copy; LizHack SA </h4>
+        <div class="copy-right__LizHack">
+            <h4> LizHack SA &copy; 2019 </h4>
         </div>
 
     </div>
