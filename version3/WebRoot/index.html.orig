@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Website design and development service providers">
+    <meta name="keywords" content="HTML,CSS,JavaScript,websites,design, web, website, development, web design, web development, website design, website development" />
+    <meta name="author" content="LizHack SA" />
+    <meta name="owner" content="LizHack SA" />
+    <meta name="copyright" content="(c) 2019" />
+    <link rel="stylesheet" type="text/css" href="Assets/Css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="Assets/Css/style.css">
+    <title> LizHack SA </title>
+</head>
+
+<body>
+
+    <header>
+        <!-- Navigation  -->
+        <nav class="navbar navbar-expand-md">
+            <div class="container-fluid">
+
+                <!-- Logo  -->
+                <a class="navbar-brand" href="index.html">
+                    <img src="Assets/img/logo2.png" alt="LizHack SA" class="navbar-brand__icon">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse text-center" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html"> Home </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#services"> Services </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#contactUs"> Contact Us </a>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+
+    </header>
+
+<main class="home">
+    <!-- Image Slider  -->
+    <section class="home_welcome">
+        <div id="Slides" class="carousel slide" data-ride="carousel">
+
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <div class="slide1">
+                        <div class="slide__content">
+                            <h1 class="display-2"> Fast Development </h1>
+                            <h3> Complete efficiency and the best team </h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="slide2">
+                        <div class="slide__content">
+                            <h1 class="display-2"> Responsive Web Development </h1>
+                            <h3> We develop websites that are responsive, every device has chance to view. </h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="slide3">
+                        <div class="slide__content">
+                            <h1 class="display-2"> Efficient Web design </h1>
+                            <h3> Complete efficiency and the best team </h3>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Our Philosophy -->
+    <section class="home_philosophy">
+        <div>
+            <h2> Our Philosophy </h2>
+            <p>
+                Work smart with the best team!
+            </p>
+            <p>
+                Provide the best customer service.
+            </p>
+        </div>
+
+    </section>
+
+    <hr class="my-4">
+
+    <!-- Services -->
+    <section id="services" class="home-services">
+
+        <div class="home-services__collection">
+
+            <div class="home-services__service">
+                <h3> Website Design </h3>
+                <p> We design mocks ups that represent the idea </p>
+            </div>
+
+            <div class="home-services__service">
+                <h3> Website Development </h3>
+                <p> We convert design idea into existing website </p>
+            </div>
+
+            <div class="home-services__service">
+                <h3> T-shirt Design </h3>
+                <p> All sites built use HTML 5 </p>
+            </div>
+
+            <div class="home-services__service">
+                <h3> Logo Design </h3>
+                <p> All sites built use HTML 5 </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Testimonials
+    <section class="home-testimonials__and__heading">
+
+        <h2 class="display-4"> Testimonials </h2>
+
+        <div class="home-testimonials__collection">
+
+            <div class="home-testimonials__testimonial">
+                <h3> Little Ark Ministries </h3>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque saepe qui tenetur minima alias earum, rem officiis odit ex? Deserunt molestias ullam molestiae nesciunt quos vel, asperiores optio velit illo!
+                </p>
+            </div>
+
+            <div class="home-testimonials__testimonial">
+                <h3> Kitchen Solutions </h3>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque saepe qui tenetur minima alias earum, rem officiis odit ex? Deserunt molestias ullam molestiae nesciunt quos vel, asperiores optio velit illo!
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+    -->
+
+</main>
+
+<!-- Footer -->
+<footer>
+    <div class="details_collection">
+        <div id="contactUs" class="details__info">
+
+            <div class="details__info__contact">
+                <img src="Assets/img/logo2.png">
+
+                <p>
+                    <a href="tel:+27623654091"> +27(0) 62 3654 091</a>
+                </p>
+                <p>
+                    <a href="mailto:lizhacksa@gmail.com">lizhacksa@gmail.com</a>
+                </p>
+            </div>
+
+            <div class="details__info__address">
+                <p> Based in: Makhanda (Grahamstown) </p>
+                <p> Eastern Cape Province </p>
+            </div>
+
+        </div>
+
+        <div>
+            <h4>&copy; LizHack SA </h4>
+        </div>
+
+    </div>
+</footer>
+
+<!-- Scripts  -->
+<script src="Assets/js/jquery-3.4.1.min.js"></script>
+<script src="Assets/js/bootstrap.min.js"></script>
+<script src="Assets/js/popper.min.js"></script>
+<script src="Assets/js/all.js"></script>
+<script src="Assets/js/script.js"></script>
+
+</body>
+
+</html>
