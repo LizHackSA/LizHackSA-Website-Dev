@@ -15,7 +15,7 @@
     
         // if page is not found
         default:
-            require '404page.html';
+            require '404.html';
         break;
     }
 
